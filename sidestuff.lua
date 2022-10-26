@@ -10,3 +10,7 @@ if errormessage then
   wait(10)
   game:GetService("ReplicatedStorage").Remotes.Events.ServerEffects:FireServer("ReplayDungeon")
   end
+coroutine.resume(coroutine.create(function()
+      wait(250)
+      game:GetService("ReplicatedStorage").Remotes.Events.ServerEffects:FireServer("ReplayDungeon")
+end))
