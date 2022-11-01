@@ -1,7 +1,3 @@
-coroutine.resume(coroutine.create(function()
-      wait(250)
-      game:GetService("ReplicatedStorage").Remotes.Events.ServerEffects:FireServer("ReplayDungeon")
-end))
 
 local success, errormessage = pcall(function()
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
